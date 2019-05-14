@@ -62,11 +62,11 @@ p {
      color:rgb(205, 103, 63);
    }
    body h2 p{
-     color: #333;
+     color: rgba(133, 37, 37, 0.678);
      font: caption;
      list-style-type: armenian;
    }
-   nav ol li b p{
+   nav ol li b {
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
@@ -74,6 +74,9 @@ p {
     font-size: 100%;
     text-align: center;
     font: outline;
+   }
+   nav ol li b p{
+     color: gray
    }
    footer {
     font-size: 0.50em;
