@@ -39,13 +39,7 @@ a {
   nav ul li:hover {
     animation: 0.5s ease-in agrandar infinite;
   }
- body h1{
-   text-align: center;
-   text-transform: capitalize;
-    color: aqua
-    
-
-  }
+ 
   @keyframes agrandar {
     0% {
       font-size: 20px;
@@ -56,4 +50,16 @@ a {
     100% {
       font-size: 20px;
     }
+    
   }
+  body h1{
+    text-align: center;
+    text-transform: capitalize;
+     color: aqua
+   }
+   nav ol li a{
+     font-size: 20%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: blue
+     
+   }
