@@ -31,11 +31,16 @@ nav ul li {
   text-align: center;
   font-size: 20px;
   font-family: "Lobster", cursive;
+  
+  /*
   -webkit-transition: all 1s ease;
 -moz-transition: all 1s ease;
 -ms-transition: all 1s ease;
 -o-transition: all 1s ease;
 transition: all 1s ease;
+codigo de transicion
+
+*/
 }
 
 nav ul li a {
