@@ -61,6 +61,9 @@ p {
     text-transform: capitalize;
      color:rgb(205, 103, 63);
    }
+   p{
+     color: brown;
+   }
    body h2 p{
      color: rgba(133, 37, 37, 0.678);
      font: caption;
