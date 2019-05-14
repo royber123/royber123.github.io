@@ -71,9 +71,10 @@ a {
     margin-right: auto;
   }
 div h2{
-  font-size: 80%;
+  font-size: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: blue;
+  text-align: center;
+  color:black ;
 }
 div p{
   text-align: center;
