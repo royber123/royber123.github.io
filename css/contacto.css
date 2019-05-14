@@ -33,7 +33,7 @@ a {
   }
   
   nav ul li a {
-    color: rgb(0, 60, 255);
+    color: chocolate;
   }
   
   nav ul li:hover {
@@ -51,4 +51,13 @@ a {
     100% {
       font-size: 20px;
     }
+
+  }
+  header h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: gold;
+  }
+  header h1 p{
+    color: navajowhite;
   }
