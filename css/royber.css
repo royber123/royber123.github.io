@@ -72,15 +72,14 @@ p {
    nav ol li b {
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: black;
     text-align: center;
     font-size: 100%;
     text-align: center;
     font: outline;
    }
-   nav ol li b p{
-     color: gray
-   }
+   
+   
    footer {
     font-size: 0.50em;
     text-align: center;
