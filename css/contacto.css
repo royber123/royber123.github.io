@@ -64,3 +64,9 @@ a {
   div h4{
     color: gainsboro
   }
+  div label{
+    color: chocolate;
+    font: outline;
+    font-size: 100%;
+    
+  }
