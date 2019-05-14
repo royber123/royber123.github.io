@@ -57,6 +57,9 @@ a {
     text-transform: capitalize;
      color: peru;
    }
+   nav ol li{
+     color: maroon
+   }
    nav ol li b{
      font-size: 100%;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
