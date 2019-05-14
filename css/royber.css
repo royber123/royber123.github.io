@@ -65,3 +65,12 @@ a {
      font: caption;
      list-style-type: armenian;
    }
+   nav ol li b p{
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align: center;
+    font-size: 100%;
+    text-align: center;
+    font: outline;
+   }
