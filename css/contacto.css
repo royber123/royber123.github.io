@@ -33,7 +33,7 @@ a {
   }
   
   nav ul li a {
-    color: orangered;
+    color: rgb(0, 60, 255);
   }
   
   nav ul li:hover {
