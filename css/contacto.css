@@ -58,6 +58,9 @@ a {
     text-align: center;
     color: gold;
   }
-  header h1 p{
+  header p{
     color: navajowhite;
+  }
+  div h4{
+    color: gainsboro
   }
