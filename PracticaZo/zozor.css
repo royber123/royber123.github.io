@@ -1,4 +1,6 @@
 
+*{padding: 0%;
+margin: 0%;}
 .cuerpo{
 width: 60%;
 height: auto;
@@ -7,6 +9,10 @@ background-image: url(../PracticaZo/images/fond_jaune.png);
 color: black;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 10px;
+}
+#inicio{
+    width: 100%;
+    margin: auto;
 }
 div,h1,p{
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,7 +35,7 @@ header, p{
 }
 nav{
     text-align: right;
-    width: 960px;
+    width: 60%;
     display: inline-block;
 }
 nav,li{
@@ -72,7 +78,7 @@ article{
     display: inline-block;
     margin-right: 10px;
     text-align: justify;
-    width: 630;
+    width: 630px;
 }
 .imaZo{
     display: inline-block;
@@ -124,7 +130,4 @@ footer{
 .misamigos ul{
     
     column-count: 2;
-}
-imsepa{
-    width: 100px;
 }
