@@ -1,0 +1,130 @@
+
+.cuerpo{
+width: 60%;
+height: auto;
+margin: auto;
+background-image: url(../PracticaZo/images/fond_jaune.png);
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 10px;
+}
+div,h1,p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div,h1{
+    display: inline-block;
+}
+#logo, header, h1{
+    display: inline-block;
+    margin-bottom: 1px;
+}
+header,h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+header, p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+nav{
+    text-align: right;
+    width: 960px;
+    display: inline-block;
+}
+nav,li{
+display: inline-block;
+margin-right: 10px;
+font-size: 0.9em;
+}
+nav,a{
+    color: black;
+    text-decoration: none;
+}
+nav, a:hover{
+    color: blue;
+    
+}
+.imgSF{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 0.2em;
+}
+.fond{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-radius: 0.2em;
+    position: relative;
+    color: #fff;
+    bottom: 0.em;
+    background-color: rgba(14, 12, 12,0.6);
+    margin-top: -100px;
+}
+.boton{
+    background-image: url(../PracticaZo/images/fond_degraderouge.png);
+    border-radius: 5px;
+    float: right;
+}
+article{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: justify;
+    width: 630;
+}
+.imaZo{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+div,h2,b{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.cuerpo{
+    width: 70%;
+    float: left;
+
+}
+.about{
+    width: 25%;
+    float: right;
+    background: rgb(88, 87, 87);
+    border-radius: 15px;
+    color: #fff;
+}
+.titulo{
+    text-align: center;
+}
+footer{
+    padding-top: 20px;
+    margin: 10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tweet{
+    width: 33%;
+    float: left;
+
+}
+.mypinturas{
+    width: 33%;
+    float: left;
+}
+.misamigos{
+    width: 33%;
+    float: left;
+
+}
+.mypinturas img{
+    border: 1px solid #181818;
+    margin-right: 2px;  
+}
+.misamigos ul{
+    
+    column-count: 2;
+}
+imsepa{
+    width: 100px;
+}
