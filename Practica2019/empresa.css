@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: auto;
+    color: cornflowerblue;
 }
 header{
     width: 33%;
@@ -16,6 +17,10 @@ header,h1{
     float: right;
     background: rgb(88, 87, 87);
     border-radius: 15px;
+    
+
+}
+.cabecera,a{
     text-decoration: none;
     color: black;
 }
