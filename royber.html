@@ -7,12 +7,12 @@
     <title>ROYBER </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/royber.css' >
 
 </head>
 
-<body class="container">
+<body >
     <header class="container">
       <h1 class="bg-danger text-white">INFORMACIÓN PERSONAL ROYBER</h1>
         <nav>
@@ -27,40 +27,52 @@
                         
         </nav>
     </header>
-    <section>
-            <nav class="container">
-                    <img class= "img-thumbnail" style= "float: left; margin: 0px 15px 15px 0px;" src="imagenes/2.jpg" class="img-fluid" width="300px" height="500px" />
-                    <div >
-                            <h2 ><b> DATOS GENERALES DE ROYBER</b> </h2>
-                            <p>
-                                    Mi nombre es Pepe Royber Acuña Noriega, nací en el C.P. Moran Lirio, un 4 de diciembre de 1996. Mis padres son: Saturnino Acuña Cerna y Carmela Noriega Tinoco, de profesión agricultura y ganadería.
-                            </p>
-                    
+    <section class="col-md-12 ">
+        <article class="row justify-content-center">
+                <article class="col-md-4 text-center">
+                        <div >
+                                <h2 class="text-justify text-center"><b>DATOS GENERALES DE ROYBER</b></h2>
+                                <p>
+                                        Mi nombre es Pepe Royber Acuña Noriega, nací en el C.P. Moran Lirio, un 4 de diciembre de 1996. Mis padres son: Saturnino Acuña Cerna y Carmela Noriega Tinoco, de profesión agricultura y ganadería.
+                                </p>
+                        
+                        </div>
+                        <img class= "img-thumbnail"  src="imagenes/2.jpg" class="img-fluid" width="300px" height="500px" />
+                        
+                        
+                </article>  
+                <article class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                                <h2 class=" text-justify"><b>FORMACION ACADEMICA</b></h2>
+                                <ol>
+                                    <li><b>Estudios Iniciales</b></li>
+                                        <p>A los 3 años ingrese a la Institución Educativa Pasitos del Saber numero 415 Moran lirio.</p>
+                                    <li><b>Estudios Primarios</b></li>
+                                        <p>A los 7 años ingrese a la Institución Educativa numero 82684 Moran Lirio</p>
+                                    <li> <b>Estudios Secundarios</b></li>
+                                         <p>A los 13 años ingrese a la Institución Educativa Andrés Avelino Cáceres Moran Lirio.</p>
+                                    <li><b>Estudios Superiores</b></li>
+                                        <p>A los 17 años ingrese a la Universidad Nacional de Cajamarca a estudiar la carrera de Ingeniería de Sistemas.</p>
+                                    </ol>
+                        </div>
                     </div>
-                    
-            </nav>    
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                                <h2> <b>HOBBY</b></h2>
+                                <p>Me gusta jugar futbol, desde pequeño en mis tiempos libres me dedicaba a realizar esta activad, con mis amigos de barrio. Ahora me dedico solo en mis tiempos libres, en un futuro espero seguir practicando esta actividad de amor y diversión.</p>
+                        </div>
+                    </div>
+                </article>
+        </article>
+              
     </section>
    
-    <nav class="container">
-        <div class="bg-light text-white">
-            <h2 class="bg-light text-justify"><b>FORMACION ACADEMICA</b></h2>
-            <ol>
-                <li><b>Estudios Iniciales</b></li>
-                    <p>A los 3 años ingrese a la Institución Educativa Pasitos del Saber numero 415 Moran lirio.</p>
-                <li><b>Estudios Primarios</b></li>
-                    <p>A los 7 años ingrese a la Institución Educativa numero 82684 Moran Lirio</p>
-                <li> <b>Estudios Secundarios</b></li>
-                     <p>A los 13 años ingrese a la Institución Educativa Andrés Avelino Cáceres Moran Lirio.</p>
-                <li><b>Estudios Superiores</b></li>
-                    <p>A los 17 años ingrese a la Universidad Nacional de Cajamarca a estudiar la carrera de Ingeniería de Sistemas.</p>
-                </ol>
-        </div>
-        
-    </nav>
+
     <nav>
         <div>
-            <h2> <b>HOBBY</b></h2>
-            <p>Me gusta jugar futbol, desde pequeño en mis tiempos libres me dedicaba a realizar esta activad, con mis amigos de barrio. Ahora me dedico solo en mis tiempos libres, en un futuro espero seguir practicando esta actividad de amor y diversión.</p>
+            
         </div>
     </nav>
     <footer class="container">
@@ -68,8 +80,10 @@
             <a href="https://facebook.com/"><img src="imagenes/fc.png" width="20" height="20" alt="Facebook Logo" class="facebook"></a>
         <h3>&copy; PEPE ROYBER</h3>
     </footer>
-  <script src="bootstrap/js/jquery.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/bower_components/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/bower_components/bootstrap/js/bootstrap.min.js"></script>
+   
 </body>
 
 </html>
