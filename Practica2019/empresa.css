@@ -10,10 +10,12 @@ header{
 header,h1{
     font-family: Arial, Helvetica, sans-serif;
     color: cornflowerblue;
-    
+
+
 }
 .cabecera{
     width: 70%;
+    border-radius: 5px;
     float: right;
     background: rgb(88, 87, 87);
     border-radius: 15px;
