@@ -3,7 +3,7 @@ body {
   background: url(../imagenes/2.JPG) no-repeat center center fixed;
   background-size: cover;
 }
-u6hent
+
 a {
   color:chocolate;
   text-decoration: none;
@@ -12,6 +12,7 @@ a {
 header h1 {
   text-align: center;
   text-transform: uppercase;
+  color: rgb(107, 46, 11) ;
 }
 
 nav ul {
@@ -43,21 +44,21 @@ codigo de transicion
 }
 
 nav ul li a {
-  color: rgb(20, 7, 3);
+  color: rgb(204, 88, 20);
 }
 
 nav ul li:hover {
-  animation: 0.5s ease-in agrandar infinite;
+  animation: 1s ease-in agrandar infinite;
 }
 
 @keyframes agrandar {
   0% {
     font-size: 20px;
   }
-  50% {
+  20% {
     font-size: 30px;
   }
-  100% {
+  30% {
     font-size: 20px;
   }
 }

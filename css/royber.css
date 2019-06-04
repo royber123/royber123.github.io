@@ -24,30 +24,27 @@ p {
     display: inline-block;
     margin: 0;
     padding: 10px;
-    border: 2px dashed rgb(255, 153, 0);
-    border-radius: 10px;
     width: 20%;
     text-align: center;
     font-size: 20px;
     font-family: "Lobster", cursive;
   }
-  
   nav ul li p {
     color: orangered;
   }
   
   nav ul li:hover {
-    animation: 0.5s ease-in agrandar infinite;
+    animation: 1s ease-in agrandar infinite;
   }
   
   @keyframes agrandar {
     0% {
       font-size: 20px;
     }
-    50% {
+    20% {
       font-size: 30px;
     }
-    100% {
+    30% {
       font-size: 20px;
     }
   }
@@ -69,16 +66,22 @@ p {
      font: caption;
      list-style-type: armenian;
    }
+   nav, ol, li{
+     color: maroon
+   }
    nav ol li b {
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:brown;
+    color:maroon;
     text-align: center;
     font-size: 100%;
     text-align: center;
     font: outline;
    }
-   
+   image{
+     border-radius: 50%;
+    
+   }
    
    footer {
     font-size: 0.50em;
@@ -86,5 +89,5 @@ p {
     clear: both;
     padding-top: 50px;
     color: #ffffff;
-    background:rgb(255, 217, 0);
+    background-color: lightslategray;
 }
