@@ -1,6 +1,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: cadetblue;
+    background-color:oldlace;
     background-size: cover;
 }
 a {
@@ -11,6 +11,8 @@ a {
   header h1 {
     text-align: center;
     text-transform: uppercase;
+    color: maroon;
+    text-decoration: none;
   }
   
   nav ul {
@@ -28,6 +30,7 @@ a {
     text-align: center;
     font-size: 20px;
     font-family: "Lobster", cursive;
+    color: peru;
   }
   
   nav ul li a {
@@ -51,8 +54,8 @@ a {
     }
 
   }
-  header h1{
-    font-family: 'Courier New', Courier, monospace;
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: rgb(20, 20, 18);
   }
@@ -60,7 +63,7 @@ a {
     color: rgb(8, 7, 6);
   }
   div h4{
-    color: gainsboro
+    color: maroon;
   }
   div label{
     color: chocolate;
@@ -73,7 +76,7 @@ a {
     font-size: 0.50em;
     text-align: center;
     clear: both;
-    padding-top: 50px;
-    color: #ffffff;
+    padding-top: 20px;
+    color: maroon;
     background-color: slategrey;
   }

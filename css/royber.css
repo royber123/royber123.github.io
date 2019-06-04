@@ -9,6 +9,7 @@ p {
   }
   
   header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-transform: uppercase;
   }
@@ -49,19 +50,17 @@ p {
     }
   }
   body h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-transform: capitalize;
-     color: peru;
+     color:dodgerblue;
    }
-   body h2{
-    text-align: center;
-    text-transform: capitalize;
-     color:gray;
-   }
+  
    p{
      color:black;
    }
-   body h2 p{
+   nav,div, h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
      color: rgba(133, 37, 37, 0.678);
      font: caption;
      list-style-type: armenian;
@@ -79,7 +78,10 @@ p {
     font: outline;
    }
    image{
-     border-radius: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
     
    }
    
@@ -87,7 +89,7 @@ p {
     font-size: 0.50em;
     text-align: center;
     clear: both;
-    padding-top: 50px;
-    color: #ffffff;
+    padding-top: 20px;
+    color:maroon;
     background-color: lightslategray;
 }
