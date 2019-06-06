@@ -33,7 +33,7 @@ a {
   }
   
   nav ul li a {
-    color: chocolate;
+   border-radius: 20px;
   }
   
   nav ul li:hover {
