@@ -70,14 +70,33 @@ nav ul li:hover {
 }
 section h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:dodgerblue;
+  color:black;
 }
 
 
 footer{
-  font-size: 0.50em;
+  font-size: 15px;
   text-align: center;
-  padding-top: 20px;
-  color:maroon;
-  background-color: slategrey;
+  padding-top: 10px;
+
+  background-color: rgb(205, 211, 216);
+}
+footer nav ul {
+  display: inline-block;
+  margin: 10px 5%;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+footer div ul li  {
+
+  margin: 0px;
+  padding: 2px;  
+  text-align: center;
+  font-size: 10px;
+  font-family: "Lobster", cursive;
+  list-style: none;
+
+}
+footer p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
