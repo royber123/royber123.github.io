@@ -82,19 +82,20 @@ footer{
   background-color: rgb(205, 211, 216);
 }
 footer nav ul {
+  list-style: none;
   display: inline-block;
   margin: 10px 5%;
   padding: 0px;
   margin-bottom: 20px;
 }
 footer div ul li  {
-
+  list-style: none;
   margin: 0px;
   padding: 2px;  
   text-align: center;
   font-size: 10px;
   font-family: "Lobster", cursive;
-  list-style: none;
+  
 
 }
 footer p{
