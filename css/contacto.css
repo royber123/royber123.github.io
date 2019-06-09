@@ -70,12 +70,35 @@ a {
     font-size: 100%;
 
   }
-  
-  footer {
-    font-size: 0.50em;
-    text-align: center;
-    clear: both;
-    padding-top: 20px;
-    color: maroon;
-    background-color: slategrey;
+   #lista{
+    list-style: none;
   }
+  
+  footer{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+  
+    background-color: rgb(205, 211, 216);
+  }
+  footer nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 5%;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  footer div ul li  {
+    list-style: none;
+    margin: 0px;
+    padding: 2px;  
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lobster", cursive;
+    
+  
+  }
+  footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  

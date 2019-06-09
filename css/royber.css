@@ -1,6 +1,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(../imagenes/pepe.jpg) no-repeat center center fixed;
+    background:bisque;
     background-size: cover;
 }
 p {
@@ -19,6 +19,7 @@ p {
     padding: 0;
     list-style: none;
     margin-bottom: 30px;
+    list-style: none;
   }
   
   nav ul li {
@@ -28,6 +29,7 @@ p {
     text-align: center;
     font-size: 20px;
     font-family: "Lobster", cursive;
+    list-style: none;
     
   }
   nav ul li a{
@@ -51,10 +53,10 @@ p {
     }
   }
   body h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Lobster", cursive;
     text-align: center;
     text-transform: capitalize;
-     color:dodgerblue;
+     color:rgb(12, 13, 14);
    }
   
    p{
@@ -65,11 +67,14 @@ p {
      color: rgba(133, 37, 37, 0.678);
      font: caption;
      list-style-type: armenian;
+     list-style: none;
    }
-   nav, ol, li{
+   nav ol li p{
+     list-style: none;
      color: maroon
    }
-   nav ol li b {
+   nav ol li  {
+    list-style: none;
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:maroon;
@@ -77,6 +82,7 @@ p {
     font-size: 100%;
     text-align: center;
     font: outline;
+   
    }
    image{
     align-content: center;
@@ -85,12 +91,37 @@ p {
     border-radius: 10px;
     
    }
-   
-   footer {
-    font-size: 0.50em;
+   footer{
+    font-size: 15px;
     text-align: center;
-    clear: both;
-    padding-top: 20px;
-    color:maroon;
-    background-color: lightslategray;
-}
+    padding-top: 10px;
+  
+    background-color: rgb(205, 211, 216);
+  }
+  footer nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 5%;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  footer div ul li  {
+    list-style: none;
+    margin: 0px;
+    padding: 2px;  
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lobster", cursive;
+    
+  
+  }
+  #cabecera{
+    width: 100%;
+  }
+  #a{
+    color:black;
+  }
+  footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  

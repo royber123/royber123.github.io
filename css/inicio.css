@@ -10,7 +10,7 @@ a {
 }
 
 header h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Lobster", cursive;
   text-align: center;
   text-transform: uppercase;
   color: maroon;
@@ -69,10 +69,19 @@ nav ul li:hover {
   }
 }
 section h1{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:black;
+  font-family: "Lobster", cursive;
+  color:peru;
 }
 
+ #div{
+  font-family: "Lobster", cursive;
+  color:snow;
+  
+}
+#div1{
+  font-family: "Lobster", cursive;
+  color: black
+}
 
 footer{
   font-size: 15px;
@@ -95,8 +104,7 @@ footer div ul li  {
   text-align: center;
   font-size: 10px;
   font-family: "Lobster", cursive;
-  
-
+  color: black;
 }
 footer p{
   font-family: Georgia, 'Times New Roman', Times, serif;
