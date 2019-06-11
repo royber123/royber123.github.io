@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Lobster", cursive;
   background: url(../imagenes/turs.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -7,7 +7,7 @@ body {
   padding-top: 70px;
 }
 a {
-  color:royalblue;
+  color:chocolate;
   text-decoration: none;
 }
 
