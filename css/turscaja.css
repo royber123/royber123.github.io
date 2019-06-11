@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color:royalblue;
+    color:black;
     text-decoration: none;
   }
   
@@ -98,7 +98,7 @@ footer div ul li  {
   text-align: center;
   font-size: 10px;
   font-family: "Lobster", cursive;
-  
+  color: black;
 
 }
 footer p{

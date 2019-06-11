@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color:royalblue;
+    color:rgb(9, 9, 10);
     text-decoration: none;
   }
   
@@ -91,6 +91,7 @@ a {
     margin: 10px 5%;
     padding: 0px;
     margin-bottom: 20px;
+    color: black;
   }
   footer div ul li  {
     list-style: none;
@@ -99,10 +100,12 @@ a {
     text-align: center;
     font-size: 10px;
     font-family: "Lobster", cursive;
+    color: black
     
   
   }
   footer p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+
   }
   
