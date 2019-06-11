@@ -3,6 +3,10 @@ body{
     background: url(../imagenes/turs.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+body {
+  padding-top: 70px;
+}
+
 a {
     color: #333;
     text-decoration: none;

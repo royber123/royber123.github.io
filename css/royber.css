@@ -2,7 +2,12 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: url(../imagenes/turs.jpg) no-repeat center center fixed;
     background-size: cover;
+   
 }
+body {
+  padding-top: 70px;
+}
+
 p {
     color: #333;
     text-decoration: none;
